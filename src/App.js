@@ -9,6 +9,10 @@ import Appointments from './pages/Appointments';
 import MechanicDashboard from './pages/MechanicDashboard';
 import Payment from './pages/Payment';
 import Navigation from './components/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+
+
 
 function App() {
   return (

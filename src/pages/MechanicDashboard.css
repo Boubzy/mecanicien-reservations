@@ -1,0 +1,32 @@
+/* src/pages/MechanicDashboard.css */
+
+.container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .appointment-list {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .appointment-list h2 {
+    margin-bottom: 15px;
+  }
+  
+  .appointment-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .appointment-card p {
+    margin: 5px 0;
+  }
+  
