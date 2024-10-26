@@ -10,20 +10,22 @@ import MechanicDashboard from './pages/MechanicDashboard';
 import Payment from './pages/Payment';
 import Navigation from './components/Navbar';
 
-const App = () => (
-  <Router>
-    <Navigation />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/register" element={<Register />} />
-      <Route path="/profile" element={<Profile />} />
-      <Route path="/vehicles" element={<Vehicles />} />
-      <Route path="/appointments" element={<Appointments />} />
-      <Route path="/mechanic-dashboard" element={<MechanicDashboard />} />
-      <Route path="/payment" element={<Payment />} />
-    </Routes>
-  </Router>
-);
+function App() {
+  return (
+    <Router>
+      <Navigation />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/vehicles" element={<Vehicles />} />
+        <Route path="/appointments" element={<Appointments />} />
+        <Route path="/mechanic-dashboard" element={<MechanicDashboard />} />
+        <Route path="/payment" element={<Payment />} />
+      </Routes>
+    </Router>
+  );
+}
 
 export default App;
